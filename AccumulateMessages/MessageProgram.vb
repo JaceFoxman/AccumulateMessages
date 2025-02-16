@@ -10,6 +10,11 @@ Module MessageProgram
     End Sub
 
 
+    'Jason Permann
+    'Spring 2025
+    'RCET2265
+    'Accumulate Message
+    'https://github.com/JaceFoxman/AccumulateMessages.git
 
     'Use this function to write what Test program needs, example: when test program gives clear true/false run through if statement
     Function UserMessages(ByVal newMessage As String, ByVal clear As Boolean) As String
