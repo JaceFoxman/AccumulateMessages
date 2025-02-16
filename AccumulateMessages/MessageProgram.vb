@@ -17,9 +17,19 @@ Module MessageProgram
         'brings test data as array from Test program, this allows the exact string needed to be written in the code to appear. 
         Static messages As New Text.StringBuilder()
 
-        If  Then
+        'if Test program gives clear = true then clear 
+        If clear = True Then
+            messages.Clear()
+
+            'if new message is cleared then write single line of nothing. must be single line ot test will think there is more "nothing" than there is
+        ElseIf newMessage = "" Then
+            messages.Append(newMessage)
+
+
+        ElseIf 
 
         End If
+
 
         Return messages
     End Function
