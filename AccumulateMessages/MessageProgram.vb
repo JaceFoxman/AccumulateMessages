@@ -25,13 +25,15 @@ Module MessageProgram
         ElseIf newMessage = "" Then
             messages.Append(newMessage)
 
-
-        ElseIf 
+            'if Test asks for message or clear is false, then write array values for Lbound to Ubound. AppendLine allows carriage return without using vbnewline or console.writeline.
+        ElseIf newMessage = newMessage Then
+            messages.AppendLine(newMessage)
 
         End If
 
+        'messages.ToString allows the return data value to match the function value established, which was string
+        Return messages.ToString
 
-        Return messages
     End Function
 
 
